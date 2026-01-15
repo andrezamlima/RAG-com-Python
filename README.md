@@ -24,7 +24,7 @@ Não há uso de conhecimento externo nem interpretações fora do contexto.
 - Docker & Docker Compose
 
 ## Estrutura do projeto
-
+```
 .
 ├── docker-compose.yml
 ├── requirements.txt
@@ -33,7 +33,7 @@ Não há uso de conhecimento externo nem interpretações fora do contexto.
     ├── ingest.py   # Ingestão e vetorização do PDF
     ├── search.py   # Busca semântica no pgvector
     └── chat.py     # Interface de chat (CLI)
-
+```
 
 ## Como Executar
 
